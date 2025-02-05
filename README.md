@@ -120,8 +120,8 @@ This is a script for submitting a job.
 As you can see, the script looks like a normal `sh` script except for all the commented lines at the top, which are telling Slurm important information about this job. 
 Briefly:
 
-* `account`: all jobs are associated with an account (or an "allocation") which tracks the number of **service units** (SUs) that have been used for a particular project. Service units are "device-hours" which you can spend on CPUs and GPUs. Speaking loosely, the more SUs you use, the *lower priority* your jobs will be, meaning some others will be able to queue jobs before you during times of high demand. By default, you will use the `ucb-general` allocation.
-* `nodes`: this is the number of devices needed to run the job. You will always have this set to 1.
+* `account`: all jobs are associated with an account (or an "allocation") which tracks the number of **service units** (SUs) that have been used for a particular project. Service units are "device-hours" which you can spend on CPUs and GPUs. Speaking loosely, the more SUs you use, the *lower priority* your jobs will be, meaning some others will be able to queue jobs before you during times of high demand. **NOTE:** the value shown here is a dummy, and you will need to replace it. **If you are a student in one of my classes, send me an email**.
+* `nodes`: this is the number of devices needed to run the job. You will always have this set to 1 unless you're doing something advanced.
 * `ntasks`: this is the number of CPU cores assigned to your job, and this will also determine the amount of CPU RAM your job will have. Consider decreasing if your job won't need much CPU contribution.
 * `time`: the maximum amount of time your job will run for. Your job will be killed after this time is exceeded. The maximum time that can be standardly assigned is 24h.
 * `partition`: the "subcluster" of machines that will process your job. For GPU jobs, you will always keep this on `gpu`.
