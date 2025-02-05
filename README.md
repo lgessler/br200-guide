@@ -30,7 +30,7 @@ You will generally _not_ run your jobs directly on them like you would on your p
 This helps UITS distribute GPU resources fairly, and it also allows you to potentially run many jobs in parallel.
 
 ### Software
-Software that requires non-trivial installation on the system is managed using [`module`](https://curc.readthedocs.io/en/latest/compute/modules.html).
+Software that requires non-trivial installation on the system is managed using `module`.
 By default, almost no packages will be made available to you--instead, you will dynamically load them a la carte using the `module` command.
 For example, `module load conda` can be used to load Anaconda and gain access to the `conda` command.
 
