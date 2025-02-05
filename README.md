@@ -24,6 +24,8 @@ You have easy access to the following locations on UITS's file system:
 1. `/N/u/$USER/BigRed200`: this is your home directory (`~`), limited to 100GB.
 2. `/N/slate/$USER`: this is an additional storage area that is only available on request (but it's automatically granted). See [how to request](https://servicenow.iu.edu/kb?id=kb_article_view&sysparm_article=KB0022439#slate).
 
+Note: here and later, wherever you see `$USER`, you can replace it with your own IU username.
+
 ## Big Red 200
 Big Red 200 is a specific collection of computer nodes which all have NVIDIA A100 40GB GPUs. 
 You will generally _not_ run your jobs directly on them like you would on your personal computer--instead, you will submit "jobs" which tell a centralized job scheduling system how to run your code, and your job will eventually be taken from the queue to be run.
