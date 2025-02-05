@@ -80,7 +80,7 @@ Let's put our code (a simplified version of [this tutorial code from HuggingFace
 ```bash
 mkdir ~/hf_demo
 cd ~/hf_demo
-wget https://raw.githubusercontent.com/lgessler/br200-guide/main/main.py
+wget https://raw.githubusercontent.com/lgessler/br200-guide/refs/heads/master/main.py
 ```
 
 ## Slurm Setup
