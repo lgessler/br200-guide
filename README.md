@@ -45,7 +45,7 @@ Let's get set up and run a real job on Alpine!
 First, log in to Big Red 200 via SSH and connect to a compile node:
 
 ```bash
-ssh yourusername@bigred200.uits.iu.edu
+ssh $USER@bigred200.uits.iu.edu
 ```
 
 If you are using Slate, I recommend creating a symlink between so that `cd ~/slate` will take you to `/N/slate/$USER`, though this is not necessary:
