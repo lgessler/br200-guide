@@ -140,6 +140,3 @@ After it's done, you will no longer see it with `squeue`.
 Your job's output will be visible under `logs/` with the file name you specified.
 
 If all goes well, you should now see output from your first Slurm job!
-
-## Cheatsheet
-CURC has a [cheatsheet](https://curc.readthedocs.io/en/stable/additional-resources/CURC-cheatsheet.html) which you may find helpful.
