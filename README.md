@@ -110,7 +110,8 @@ Now, create a new file `scripts/hf_demo.sh` and fill it with the following:
 #SBATCH --output=logs/hf-demo-%j.output
 
 module purge
-module load conda 
+module load conda
+conda activate hf
 
 cd hf_demo
 python main.py
